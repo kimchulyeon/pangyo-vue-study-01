@@ -19,6 +19,14 @@ const router = new VueRouter({
       path: "/ask",
       component: () => import("@/views/ask/Ask.vue"),
     },
+    {
+      path: "/item-view",
+      component: () => import("@/views/news/ItemView.vue"),
+    },
+    {
+      path: "/user",
+      component: () => import("@/views/user/UserView.vue"),
+    },
   ],
 });
 
